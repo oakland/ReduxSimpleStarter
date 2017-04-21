@@ -1,7 +1,14 @@
-import React from "react";
+import React, {Component} from "react";
 
-const SearchBar = () => {
-	return <input onChange={e => console.log(e.target.value)}/>;
-};
+class SearchBar extends Component {
+	render() {
+		// return <input onChange={this.onInputChange} />;
+		return <input onChange={e => console.log(e.target.value)} />;
+	}
+
+	// onInputChange(e) {
+	// 	console.log(e.target.value);
+	// }
+}
 
 export default SearchBar;
