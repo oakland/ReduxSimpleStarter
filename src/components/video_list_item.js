@@ -1,6 +1,6 @@
 import React from "react";
 
-const VideoListItem = ({video, onVideoSelect}) => {
+const ListItem = ({video, onVideoSelect}) => {
 	const imgUrl = video.snippet.thumbnails.default.url;
 	return (
 		<li onClick={() => onVideoSelect(video)} className="list-group-item">
@@ -16,4 +16,4 @@ const VideoListItem = ({video, onVideoSelect}) => {
 	);
 };
 
-export default VideoListItem;
+export default ListItem;
