@@ -1,3 +1,6 @@
+This repo is cloned from Stephen Grider's github.
+This is the youtube video search app.
+
 # ReduxSimpleStarter
 
 Interested in learning [Redux](https://www.udemy.com/react-redux/)?
